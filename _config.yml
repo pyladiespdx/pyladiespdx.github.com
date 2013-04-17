@@ -1,0 +1,47 @@
+#### Stores configuration data ####
+#### Note — You cannot use tabs in configuration files. This will either lead to parsing errors, or Jekyll will use the default settings. ####
+
+safe:        false
+auto:        true
+server:      true
+server_port: 8000
+baseurl:    
+url: http://localhost:8000
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      false
+lsi:         false
+pygments:    true
+markdown:    maruku
+permalink:   pretty
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
