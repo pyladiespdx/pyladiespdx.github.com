@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />    
+    <meta name="description" content="Pyladiespdx.github.io : Website for Pyladies PDX hosted on Github" />
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Pyladiespdx </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
+    <link rel "stylesheet" href="/css/pygment_trac.css" />
+	<!--<link rel="stylesheet" href="stylesheets/bootstrap.css" />Add bootstrap?-->
+	<!--<link href="http://fonts.googleapis.com/css?family=">Add Fonts?-->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script type="text/javascript" src="/js/meetup_widget.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			addUpcomingMeetups();
+		});
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<a id="forkme_banner" href="https://github.com/pyladiespdx">View on GitHub</a>
+		<div class="header-wrapper">
+			<div class="us">
+				<!--<div class="logo"><a href="/"><img src="assets/images/pyladies_pdx.png" /></a></div>-->
+				<div class="name">
+					<h1>PyLadies PDX</h1>
+					<h2>Women who code in Python</h2>
+				</div><!--end name-->
+			</div><!--end us-->
+			<div class="nav">
+				<ul>
+					<!--{% for link in page.navigation %}
+					<li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a></li>
+					{% endfor %}-->
+					<li><a href="/workshops">Workshops</a></li>
+					<li><a href="/resources">Tech Glossary</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/members">Members</a></li>
+				</ul>
+			</div><!--end nav-->
+		</div><!--end header-wrapper-->
+	</div><!--end header-->
+	<div class="container">
+		<div class="wrapper">
+			{{ content }}
+		</div><!--end wrapper-->
+		<div class="sidebar">
+			<div class="social">
+				<p>To find upcoming meetings, visit our <a href="http://www.meetup.com/PyLadies-PDX/">Meetup site</a>. We generally meet every other Wednesday evening starting at 6pm and most Saturdays at 11am.</p>
+				<p>To join group discussion, subscribe to <a href="https://groups.google.com/forum/#!forum/pyladiespdx">the pyladiespdx Google group</a>.</p>
+			</div><!--end social-->
+		</div><!--end sidebar-->
+	</div><!--end container-->
+	<div class="footer">
+		<div class="footer-wrapper">
+			<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+		</div><!--end footer wrapper-->
+	</div><!--end footer-->
+
+	<!-- Scripts -->
+	<!--<script type="text/javascript">    
+            var _gaq = _gaq || [];
+             _gaq.push(['_setAccount', '']);<--add account # here
+             _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+    </script>-->
+	<!--<script src="/assets/js/bootstrap.js"></script>Add bootstrap?-->
+</body>
+
+</html>
