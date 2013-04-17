@@ -1,0 +1,317 @@
+/*******************************************************************************
+Imports
+*******************************************************************************/
+
+@import url(pygment_trac.css);
+
+/*******************************************************************************
+Note: Using Normalize instead of Meyerweb Reset
+*******************************************************************************/
+
+
+/*******************************************************************************
+Structure Styles
+*******************************************************************************/
+html, 
+body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  font-size: 14px;
+  font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+.container {
+  width: 1060px;
+  height: 100% !important;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 40px !important;
+}
+
+.wrapper {
+  float: left;
+  width: 640px;
+  margin: 30px 30px 30px 0;
+}
+
+.sidebar {
+  width: 280px;
+  height: 100%;
+  float: left;
+  background: #f5f5f5;
+  padding: 0 20px;
+}
+
+.header {
+  background: #126cb2;
+  color: #fff;
+  clear: both;
+  overflow: hidden;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  height: 60px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+/*******************************************************************************
+Text Styles
+*******************************************************************************/
+
+p {
+  margin: 20px 10px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+  padding-bottom: 22px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h1 a {
+
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h2 a {
+
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.3em;
+  display: block;
+  border-bottom: 1px solid #777;
+  margin-bottom: 20px;
+}
+
+ul, ol, dl {
+  margin: 15px;
+  padding-left: 20px;
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+  list-style-type: none;
+}
+
+pre, code {
+  width: 100%;
+  display: block;
+  background: #444;
+  color: #fff;
+  font-size: 12px;
+  font-family: monospace;
+  padding: 12px;
+  overflow: auto;
+}
+
+blockquote {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+hr {
+  height: 1px;
+  background: url('../images/bg_hr.png') repeat-x center;
+  border: none;
+  margin-bottom: 6px;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+dl p {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+table {
+  text-align: left;
+  border: 1px solid #444;
+  margin: 20px;
+}
+
+td {
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+}
+
+form {
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+/*******************************************************************************
+Nav/Link Styles
+*******************************************************************************/
+
+a {
+  text-decoration: none;
+  color: #0090ff;
+  border-bottom: 1px dashed #444;
+}
+
+a:hover {
+  color: #0d16ff;
+}
+
+.nav {
+  width: 640px;
+  float: left;
+}
+
+.nav ul {
+  margin-top: 78px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-right: 16px;
+}
+
+.nav li a {
+  font-size: 18px;
+  border-bottom: 1px dashed #fff;
+}
+
+.nav li a:hover {
+  color: #fff;
+}
+
+.nav li a:active {
+  color: #fff;
+}
+
+/*******************************************************************************
+Header Styles
+*******************************************************************************/
+
+.header-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.us {
+  float: left;
+  margin: 20px 40px;
+}
+
+.name {
+  color: #fff;
+}
+
+.name h1,
+.name h2 {
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+
+.logo {
+  float: left;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/*******************************************************************************
+Sidebar Styles
+*******************************************************************************/
+
+.social {
+
+}
+
+/*******************************************************************************
+Footer Styles
+*******************************************************************************/
+
+.footer-wrapper {
+
+}
+
+/*******************************************************************************
+Media--image, icon, etc--Styles
+*******************************************************************************/
+
+img {
+  width: 100%;
+  max-width: 100%;
+  margin: 12px;
+}
+
+i {
+
+}
+
+/*******************************************************************************
+Media Queries
+*******************************************************************************/
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 1026px) {
+
+}
+
+@media screen and (min-width: 1027px) {
+
+}
+
+
