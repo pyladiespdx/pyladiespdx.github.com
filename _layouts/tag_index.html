@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<h2 class="page-title">{{ page.title }}</h2>
+<ul>
+  {% for post in site.posts %}
+  {% for tag in post.tags %}
+  {% if tag == page.tag %}
+  <li class="tag-archive-list">
+    <p>{{ post.date }}</p> 
+    <p><a class="tag-archive-title" href='{{ post.url}}'>{{ post.title }}</a></p>
+    <p class="tag-archive-summary">{{ post.summary }}</p>
+    <!--ul class="tag_list">
+      {% for tag in post.tags %}
+      <li class="inline archive_list"><a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>-->
+  </li>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</ul>
