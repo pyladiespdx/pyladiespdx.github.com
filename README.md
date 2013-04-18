@@ -46,11 +46,12 @@ Make sure this version is being sourced by running: ``` $ ruby --version ``` {{ 
 
 * Install Jekyll by running ``` $ gem install jekyll ``` {{ takes a second to get going }}
 
-* If you haven't already, clone the pyladies pdx site repo by running: ``` $ git clone https://github.com/pyladiespdx/pyladiespdx.github.com.git ```
+* If you haven't already, form the pyladies pdx site repo by pushing "Fork" button, then clone your fork to your machine by running: ``` $ git clone https://github.com/your_github_ursername_here/pyladiespdx.github.com.git ```
+
 ** See the TODOs for things that need to be done; develop locally **
 
 To build the site, run ``` $ jekyll --server ``` and visit http://localhost:8000
 
-When you're satisfied with the changes you've made, submit a pull request!
+When you're satisfied with the changes you've made, submit a pull request (by clicking "Pull Request" on your fork's page)!
 
 Note: for blog posts, see the "blog_template.md" file in "_posts" for formatting 
