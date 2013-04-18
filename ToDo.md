@@ -1,16 +1,31 @@
-I created this to do list to get the conversation started about improving this space. These are some of the ideas that have come up at Saturday Hackathons
+# To Do List #
 
-### To Do (things that should proabably happen)
-* Make the main Pyladies page link here
-* Page of links to external resources 
-* Page to list the resources that PDX PyLadies have created
-	* Pdfs or webpages?
-	* These may be reposted on the national site
-* Migrate resources from Meetup
-* Blog for short news-type posts to describe upcoming events (RSS)
-* Create a space for lightning talk slides and notes (maybe on the resources page)
+## Site Structure ##
 
-### Wishlist (things we might want to talk about doing)
-* Bios for individual PyLadies
-* Setup MailChimp (or something similar) to keep subscribers updates about upcoming events
-* Calendar of upcoming workshops
+Home 
+-Blog (whatever pyladies, python, tech, women, etc.)
+-Talks/Tutorials (workshop notes and handouts; member-created tutorials; lightening talk materials)
+-Glossary (annotated resource list)
+-Members (member profiles)
+-About (pyladies pdx; how to get involved)
+-Contact (irc; google group; github; twitter; meetup, etc.)
+
+### Most Urgent ###
+* Finish designing layout (see pictures in Issues tab above under "Design"); wireframes and colors
+* Finalize lists of categories and tags to choose from (to keep site size and organization under control); pick icons for categories
+* Write the code to handle categories (see tags files for guidance)
+* Finish the templating for each of the pages listed above
+* Write markdown templates for blog posts, profiles, talks/tutorials; glossary entries (ie, copy/paste templates for contributors)
+
+### Regular Urgent ###
+* RSS page; 404 page; Archive page templates
+* site integrations: meetup, twitter, instagram, instapaper...whatever people think we should use for social
+* Color scheme and image assets!! CSS!!
+* any javascript/jquery scripting for UI, apis, etc
+
+### Urgent Lite ###
+* solicit profiles from individual PyLadies
+* migrate resources from Meetup
+* add in blog posts that have previously been published to pyladies.com
+* calendar of events with iCal/google cal integration 
+* make site responsive
