@@ -16,7 +16,7 @@ future:      false
 lsi:         false
 pygments:    true
 markdown:    maruku
-permalink:   pretty
+permalink:   /:title/
 
 maruku:
   use_tex:    false
