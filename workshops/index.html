@@ -1,0 +1,24 @@
+---
+layout: page
+title: Tutorials and Talks
+---
+
+{% for post in site.posts %}
+	{% case post.category %}
+	{% when "workshop" %}
+		<h3><a href="{{ post.url }}"><i class="icon-file-alt icon-large"></i>  {{ post.title }}</a></h3>
+		<p class="post-meta">{{ post.date | date: "%B %e, %Y" }}<p>
+		<p>{{ post.summary }}. <a href="{{ post.url }}">More  <i class="icon-double-angle-right"></i></a></p>
+		<p class="post-meta">Tagged under: {{ post.tags }}</p>
+	{% when "tutorial" %}
+		<h3><a href="{{ post.url }}"><i class="icon-magic icon-large"></i>  {{ post.title }}</a></h3>
+		<p class="post-meta">{{ post.date | date: "%B %e, %Y" }}<p>
+		<p>{{ post.summary }}. <a href="{{ post.url }}">More  <i class="icon-double-angle-right"></i></a></p>
+		<p class="post-meta">Tagged under: {{ post.tags }}</p>
+	{% when "lightening" %}
+		<h3><a href="{{ post.url }}"><i class="icon-bolt icon-large"></i>  {{ post.title }}</a></h3>
+		<p class="post-meta">{{ post.date | date: "%B %e, %Y" }}<p>
+		<p>{{ post.summary }}. <a href="{{ post.url }}">More  <i class="icon-double-angle-right"></i></a></p>
+		<p class="post-meta">Tagged under: {{ post.tags }}</p>
+	{% endcase %}
+{% endfor %}

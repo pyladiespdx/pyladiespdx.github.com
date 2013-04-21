@@ -1,10 +1,20 @@
 ---
-layout: default
+layout: post
 title: Members
 ---
 
-<h3>Authors and Contributors</h3>
-
+{% for post in site.posts %}
+	{% if post.category =="member" %}
+	<h3><a href="{{ post.url }}">{{ post.name }}</a></h3>
+	<img class="profile-pic" src="{{ post.image_path }}" />
+	<p class="profile"><i class="icon-twitter"></i><a href="{{ post.twitter_url }}">  {{ post.twitter_handle }}</a></p>
+	<p class="profile"><i class="icon-laptop"></i>  {{ post.irc_handle }}</p>
+	<p class="profile"><i class="icon-globe"></i><a href="{{ post.website_url }}">  {{ post.website_name }}</a></p>
+	<p class="profile"><i class="icon-github-alt"></i><a href="{{ post.github_url }}">  {{ post.github_name }}</a></p>
+	<p class="profile"><i class="icon-envelope-alt"></i>  {{ post.email }}</p>
+	<p class="profile">{{ post.bio }}</p>
+	{% endif %}
+{% endfor %}
 <ul>
 	<li><a href="https://github.com/selenamarie" class="user-mention">@selenamarie</a></li>
 	<li><a href="https://github.com/pdxmele" class="user-mention">@pdxmele</a></li>
