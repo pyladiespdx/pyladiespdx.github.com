@@ -23,47 +23,49 @@
 </head>
 
 <body>
-	<div class="header">
-		<a id="forkme_banner" href="https://github.com/pyladiespdx">View on GitHub</a>
-		<div class="header-wrapper">
-			<div class="us">
-				<!--<div class="logo"><a href="/"><img src="assets/images/pyladies_pdx.png" /></a></div>-->
-				<div class="name">
-					<h1>PyLadies PDX</h1>
-					<h2>Women who code in Python</h2>
-				</div><!--end name-->
-			</div><!--end us-->
-			<div class="nav">
-				<ul>
-					<!--{% for link in page.navigation %}
-					<li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a></li>
-					{% endfor %}-->
-					<li><a href="/workshops">Workshops</a></li>
-					<li><a href="/glossary">Tech Glossary</a></li>
-					<li><a href="/blog">Blog</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/members">Members</a></li>
-				</ul>
-			</div><!--end nav-->
-		</div><!--end header-wrapper-->
-	</div><!--end header-->
+	
 	<div class="container">
+		<div class="header">
+				<div class="header-wrapper">
+				<!--<a id="forkme_banner" href="https://github.com/pyladiespdx">View on GitHub</a>-->
+				</div><!--end header-wrapper-->
+			</div><!--end header-->
+		<div class="nav">
+			<!--<div class="logo"><a href="/"><img src="images/pyladies_pdx.png" alt="pyladies pdx logo" width="60px" height="60px" /></a></div>-->
+			<a href="/"><h1 class="us">PyLadies PDX</h1></a>
+			<ul>
+				<li><a href="/workshops">Workshops</a></li>
+				<li><a href="/glossary">Tech Glossary</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/members">Members</a></li>
+			</ul>
+		</div><!--end nav-->
+		<img class="pyladies-wide" src="../images/pyladies_mtg.jpg" alt="pyladies of portland" />
 		<div class="wrapper">
-			{{ content }}
+			<div class="content">
+				{{ content }}
+			</div><!--end content-->
 		</div><!--end wrapper-->
 		<div class="sidebar">
 			<div class="social">
-				<p>To find upcoming meetings, visit our <a href="http://www.meetup.com/PyLadies-PDX/">Meetup site</a>. We generally meet every other Wednesday evening starting at 6pm and most Saturdays at 11am.</p>
-				<p>To join group discussion, subscribe to <a href="https://groups.google.com/forum/#!forum/pyladiespdx">the pyladiespdx Google group</a>.</p>
+				<ul>
+					<li><a href="https://github.com/pyladiespdx"><i class="icon-github-alt icon-large"></i>  Fork us on Github</a></li>
+					<li><a href="http://www.meetup.com/PyLadies-PDX/"><i class="icon-group icon-large"></i>  Join us on Meetup</a></li>
+					<li><a href="https://twitter.com/PyLadies_pdx"><i class="icon-twitter icon-large"></i>  Follow us on Twitter</a></li> 
+					<li><a href="https://groups.google.com/forum/#!forum/pyladiespdx"><i class="icon-envelope icon-large"></i>  Sign up for our Google group</a></li>
+				</ul>
 			</div><!--end social-->
 		</div><!--end sidebar-->
-	</div><!--end container-->
 	<div class="footer">
 		<div class="footer-wrapper">
 			<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
 		</div><!--end footer wrapper-->
 	</div><!--end footer-->
-
+	<div class="background-image">
+		<img src="images/pyladies_mtg.jpg" alt="portland pyladies" />
+	</div>
+	</div><!--end container-->
 	<!-- Scripts -->
 	<!--<script type="text/javascript">    
             var _gaq = _gaq || [];
