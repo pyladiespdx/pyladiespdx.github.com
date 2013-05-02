@@ -1,10 +1,19 @@
-### This is the template for a glossary post. Any glossary post must contain the YAML Front Matter below as the posts header (ie, first thing on page) ###
-### NOTE: EVERY POST MUST HAVE the filename YEAR-MONTH-DAY-TITLE.md ###
-
 ---
+#### GLOSSARY POST TEMPLATE
+#### Every blog post filename must have the format: 
+#### YYYY-MM-DD-term.md
+
+###### Do not remove this YAML header (everything between the dashes). 
+###### It tells the site where to put your post.
+###### The following line is required. 
 layout: post
+
+###### Replace "Tech Term" with the glossary word. Required.
 title: Tech Term
+
+###### Required
 category: glossary
+
 ---
 
 This is a 3-5 sentence explanation of your chosen tech term (say, 'VCS'--version control, or static site generator, etc).
