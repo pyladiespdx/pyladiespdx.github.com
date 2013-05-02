@@ -1,10 +1,10 @@
 ---
+
 layout: post
 title: Get Comfortable with List Comprehensions and Regex
-category: tutorial
-tags: flora_worley, lists, regex
----
+category: tutorials
 
+---
 
 ##List Comprehensions
 
@@ -98,26 +98,26 @@ For more on this topic, see http://interactivepython.org's Data and Algorithms c
 
 Regular expressions are a tool for matching text __patterns__ in strings of varying length and content. Regexes give you the flexibility to run searches on/match patterns beyond literal fixed characters. 
 
-The Python module that provides Regex support is called "__re__".
+The Python module that provides Regex support is called "re".
 Search with the re.search() method:
 ```text_to_match = re.search(pattern, string)```
 …the method will take the __pattern__ you give it and will search against the __string__ you've passed in.
 
-Search __patterns__ are often appended by an "__r__" (as in ```re.search(r'pattern', string)```) to denote that the string is "raw", meaning that nothing in the string should be escaped. You should generally use the "r" in your Regexes to avoid parsing issues.
+Search __patterns__ are often appended by an "r" (as in ```re.search(r'pattern', string)```) to denote that the string is "raw", meaning that nothing in the string should be escaped. You should generally use the "r" in your Regexes to avoid parsing issues.
 
 Searching and matching works by looking for the complete pattern in each string; running through from start to finish; and stopping as soon as a match is found, returning the match object (or None if not found).
 
 ###Basic patterns:
 
 * a, X, 9, < : plain characters match themselves
-* ^$*+?{[]\|() : meta-characters that have special meanings
+* ^$\*+?{[]\|() : meta-characters that have special meanings
 	* () : Define the scope and precedence of the operators
 	* | : Boolean "or", meaning either one or other of one|other
 	* ^ : Start of a string
 	* $ : End of a string 
-	* \ : inhibit the uniqueness of a character that is otherwise considered a meta-character (i.e., \. for period; \\ for slash; \$ for a dollar sign, etc)
+	* \ : inhibit the uniqueness of a character that is otherwise considered a meta-character (i.e., \ \. for period; \ \ for slash; \$ for a dollar sign)
 	* ? : match zero or one occurrence of the pattern to the left (i.e., may or may not appear in pattern)
-	* - : (dash) if between two [], indicates a range of digits or alphabetic chars; will be interpreted as a literal if appearing first or last inside [].
+	* - : if between two [], indicates a range of digits or alphabetic chars; will be interpreted as a literal if appearing first or last inside [].
 	* \* : zero or more occurrences of a pattern to the left of
 	* \+ : one or more occurrences of a pattern to the left of (q+, say, if you are expecting multiple q's) 
 	* . : periods match any character (except newline \n)
@@ -180,17 +180,25 @@ would give you the ability to extract either the email name or email host from t
 		# note that the outer parentheses are treated as the first, default grouping
 
 * __findall()__ : a very useful re module function that finds all of the matches and returns them as a list of strings
+
 ex: ```emails = re.findall(r'/.+@.+\..+/i', string)```
+
 Then, you can iterate over the list to do something with the emails, like:
+
 ```
 for email in emails:
 	print email
 ```
+
 You can even use this function to find all occurrences of a pattern in a file:
+
 ```
 f = open('file.txt', 'r')
 strings = re.findall(r'text pattern', f.read())
 ```
+
 * You can combine re.findall() and groups() together for even more granular data manipulation
+
 * __sub()__ : is another useful function in the re module that allows you to substitute in values:
+
 ex: ```re.sub(pattern, replacement, string)``` will return a new string with each pattern match replaced by the replacement value 
