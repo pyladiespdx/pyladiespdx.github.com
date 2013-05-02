@@ -5,6 +5,7 @@ title: Get Comfortable with List Comprehensions and Regex
 category: tutorial
 tags: flora_worley, lists, regex
 summary: This tutorial/cheat sheet is the companion to a workshop we held recently at PyLadies PDX on using list comprehensions and regular expressions. Feel free to use this as a reference as you start using some of these constructs, and feel free to fork and add more if you'd like to..
+
 ---
 
 #Get Comfortable with List Comprehensions and Regex
