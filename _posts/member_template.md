@@ -13,7 +13,7 @@ name: Firstname Lastname
 
 ###### Uncomment the next two lines if you want to share you twitter account
 ###### twitter_url: https://twitter.com/twitter_name
-###### twitter_handle: @twitter_name
+###### twitter_handle: twitter_name
 
 ###### Uncomment if you want to share your registered nickname
 ###### irc_handle: YourNickname
