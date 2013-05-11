@@ -34,11 +34,8 @@ body {
 
 .wrapper {
   float: left;
-  width: 660px;
+  width: 800px;
   min-height: 100%;
-  background: #fff;
-  margin: 0 0 0 60px;
-  padding: 0 20px;
 }
 
 .content {
@@ -127,7 +124,7 @@ li {
 }
 
 pre, code {
-  width: 100%;
+  width: 90%;
   display: block;
   background: #444;
   color: #fff;
@@ -255,8 +252,9 @@ Header Styles
 }
 
 .logo img {
-  width: 60px; 
-  margin: 10px;
+  width: 80px; 
+  height: 80px;
+  margin: 5px 10px 0px 30px;
 }
 
 #forkme_banner {
@@ -311,14 +309,10 @@ Footer Styles
 Media--image, icon, etc--Styles
 *******************************************************************************/
 
-img {
+.pyladies-wide {
   width: 100%;
   max-width: 100%;
-  margin: 12px;
-}
-
-.pyladies-wide {
-  margin: 0;
+  margin: 50px 0 0 0;
   margin-top: 40px;
 }
 
@@ -359,4 +353,25 @@ Media Queries
 
 }
 
+/*******************************************************************************
+Member Styles
+*******************************************************************************/
 
+.member-wrapper{
+  padding: 35px;
+  background: #dddddd;
+  /*border: 3px dashed #000000;*/
+  display: inline-block;
+  margin: 10px;
+
+}
+
+.profile{
+  display: none;
+}
+
+.profile-pic{
+  height: 150px;
+  width: 150px; 
+
+}
