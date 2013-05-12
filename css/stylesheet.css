@@ -40,6 +40,7 @@ body {
 
 .content {
   margin-top: 60px;
+  margin-left: 20px;
 }
 
 .sidebar {
@@ -333,6 +334,58 @@ i {
   margin: 0;
 }
 
+
+/*******************************************************************************
+Member Profile Styles
+*******************************************************************************/
+
+.member-wrapper{
+  padding: 35px;
+  background: #dddddd;
+  display: inline-block;
+  margin: 10px;
+}
+
+.member {
+  width: 20%;
+  float: left;
+  margin-right: 26px;
+}
+
+#nudge {
+  clear: both;
+  padding-top: 30px;
+}
+
+.user-mention {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.profile {
+    margin: 8px;
+}
+
+.profile-header {
+  padding-bottom: 20px;
+}
+
+#profile-contact {
+  width: 70%;
+  float: right;
+}
+
+.profile-bio {
+  padding-top: 20px;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px; 
+
+}
+
+
 /*******************************************************************************
 Media Queries
 *******************************************************************************/
@@ -353,25 +406,3 @@ Media Queries
 
 }
 
-/*******************************************************************************
-Member Styles
-*******************************************************************************/
-
-.member-wrapper{
-  padding: 35px;
-  background: #dddddd;
-  /*border: 3px dashed #000000;*/
-  display: inline-block;
-  margin: 10px;
-
-}
-
-.profile{
-  display: none;
-}
-
-.profile-pic{
-  height: 150px;
-  width: 150px; 
-
-}

@@ -29,6 +29,10 @@ name: Firstname Lastname
 ###### Uncomment and add your email address if you want to share it
 ###### email: pylady@mail.com
 
+###### Uncomment and add your linkedIn url if you want to share it 
+###### note: some people have different linkedin base urls; copy your page's full path
+###### linkedin_url: http://www.linkedin.com/in/your_name
+
 ###### Put a picture in the images folder 
 ###### Replace default.jpg with the name of your photo. 
 ###### Required, but the image doesn't have to be of you.

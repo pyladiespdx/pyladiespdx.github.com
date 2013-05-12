@@ -1,7 +1,39 @@
 ---
+
 layout: default
+
 ---
 
 <div class="post">
-	{{ content }}
+	{% if page.category == "member" %}
+		<h1 class="profile-header">{{ page.name }}</h1>
+		{% if page.image_path %}
+			<img class="profile-pic" src="{{ page.image_path }}" />
+		{% endif %}
+		<div id = "profile-contact">
+			{% if page.twitter_url %}
+				<p class="profile"><i class="icon-twitter"></i><a href="{{ page.twitter_url }}">  {{ page.twitter_handle }}</a></p>
+			{% endif %}
+			{% if page.website_url %}
+				<p class="profile"><i class="icon-globe"></i><a href="{{ page.website_url }}">  {{ page.website_name }}</a></p>
+			{% endif %}
+			{% if page.github_url %}
+				<p class="profile"><i class="icon-github-alt"></i><a href="{{ page.github_url }}">  {{ page.github_handle }}</a></p>
+			{% endif %}
+			{% if page.email %}
+				<p class="profile"><i class="icon-envelope-alt"></i>  {{ page.email }}</p>
+			{% endif %}
+			{% if page.linkedin_url %}
+				<p class="profile"><i class="icon-linkedin"></i><a href="{{ page.linkedin_url }}"> Linkedin profile </a></p>
+			{% endif %}
+			{% if page.irc_handle %}
+				<p class="profile"><i class="icon-laptop"></i> Freenode IRC:  {{ page.irc_handle }}</p>
+			{% endif %}
+		</div>
+			{% if page.bio %}
+				<p class="profile-bio">{{ page.bio }}</p>
+			{% endif %}
+	{% else %}
+		{{ content }}
+	{% endif %}
 </div>
