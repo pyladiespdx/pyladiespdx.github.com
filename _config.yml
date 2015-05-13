@@ -2,11 +2,6 @@
 #### Note — You cannot use tabs in configuration files. This will either lead to parsing errors, or Jekyll will use the default settings. ####
 
 safe:        false
-auto:        true
-server:      true
-server_port: 8000
-baseurl:    
-url: http://localhost:8000
 
 source:      .
 destination: ./_site
@@ -14,16 +9,9 @@ plugins:     ./_plugins
 
 future:      false
 lsi:         false
-pygments:    true
-markdown:    maruku
+highlighter:    true
+markdown: kramdown
 permalink:   /:title/
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
 
 rdiscount:
   extensions: []
