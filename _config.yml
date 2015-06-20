@@ -9,7 +9,6 @@ plugins:     ./_plugins
 
 future:      false
 lsi:         false
-highlighter:    true
 markdown: kramdown
 permalink:   /:title/
 
