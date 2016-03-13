@@ -25,8 +25,8 @@ body {
   line-height: 1.5em;
 }
 
-.container {
-  width: 1140px;
+.my-container {
+  width: 75%;
   height: 100% !important;
   margin: 0 auto;
   padding-bottom: 40px !important;
@@ -34,7 +34,7 @@ body {
 
 .wrapper {
   float: left;
-  width: 800px;
+  width: 70%;
   min-height: 100%;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .sidebar {
-  width: 320px;
+  width: 25%;
   min-height: 100%;
   float: right;
   background: rgba(255, 75, 75, 0.4);
@@ -198,7 +198,7 @@ a:hover {
 
 .nav {
   position: fixed;
-  width: 1140px;
+  width: 75%;
   background: rgb(255, 75, 75);
 
 }
