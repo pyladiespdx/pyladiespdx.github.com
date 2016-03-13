@@ -14,3 +14,4 @@ All events are organized through [meetup](http://www.meetup.com/PyLadies-PDX)
 <a href="http://www.oreilly.com/pub/cpc/9390"><img src="http://www.oreilly.com/partner_file/orm_partner_meerkats_125x125.png" /></a>
 <br>
 <div id='potential-hampsters'></div>
+<a id="less-wow"></a>

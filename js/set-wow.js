@@ -12,7 +12,7 @@ var createCookie = function(name, value, days) {
 }
 
 window.onload = function() {
-    createCookie('pyladiespdx-wow', 'yes', 365);
+    createCookie('pyladiespdx_wow', 'yes', 365);
     window.location = '/';
     console.log("SET COOKIE!");
 };
