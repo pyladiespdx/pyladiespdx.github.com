@@ -25,6 +25,7 @@ function doit() {
         $('#pyladies-title').replaceWith(title);
         $('#potential-hampsters').replaceWith('<img src="/images/hampster2.gif"><img src="/images/hampster1.gif"><img src="/images/hampster3.gif">')
         $('#potential-gerbil').replaceWith('<img src="/images/gerbil.gif">')
+        $('.pyladies-wide').replaceWith('<img class="pyladies-wide" src="../images/way_cool_collage.png" alt="pyladies of portland" />')
         console.log('Let the wow');
     } else {
         console.log('BORING!');
