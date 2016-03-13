@@ -16,8 +16,6 @@ function getCookie(c_name) {
 
 
 function removeCookie(c_name) {
-    console.log('removing', c_name);
-    console.log(document.cookie);
     cookieStr = c_name + "=" + escape('') + "; ";
     var date = new Date();
     // set expiration to a minute ago
@@ -26,16 +24,16 @@ function removeCookie(c_name) {
     cookieStr += expires;
     cookieStr += "path=/";
     document.cookie = cookieStr;
-    console.log('REMOVED');
-    console.log(document.cookie);
+    console.log('Boring site style enabled, no fun :(');
     window.location.reload(false);
 }
 
+// Look for cookie if special url was visited, and add wow!
 
 function doit() {
     cookie = getCookie('pyladiespdx_wow');
-    console.log("GOT COOKIE!", cookie);
-    if (cookie == 'yes'){
+    if (cookie === 'yes'){
+        console.log("Adding WOW to site style!");
         $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '/css/bootstrap.min.css') );
         $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '/css/geor.css') );
 
@@ -46,7 +44,6 @@ function doit() {
         $('.pyladies-wide').replaceWith('<img class="pyladies-wide" src="../images/way_cool_collage.png" alt="pyladies of portland" />');
         $('#less-wow').replaceWith('<a id="less-wow" href="#">Click here for less WOW</a>');
         $('#less-wow').click(function () { 
-            console.log('clicked');
             removeCookie("pyladiespdx_wow"); 
         });
         console.log('Let the wow');
