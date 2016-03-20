@@ -34,7 +34,7 @@ function doit() {
     cookie = getCookie('pyladiespdx_wow');
     if (cookie === 'yes'){
         console.log("Adding WOW to site style!");
-        $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '/css/bootstrap.min.css') );
+        $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '/css/geo-bootstrap.min.css') );
         $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '/css/geor.css') );
 
         title = '<h1 id="pyladies-title">Welcome to <FONT COLOR="#FF0000">P</FONT><FONT COLOR="#FF5A00">y</FONT><FONT COLOR="#FFB400">L</FONT><FONT COLOR="#FFff00">a</FONT><FONT COLOR="#A5ff00">d</FONT><FONT COLOR="#4Bff00">i</FONT><FONT COLOR="#00ff00">e</FONT><FONT COLOR="#00ff5A">s</FONT> <blink><FONT COLOR="#00ffB4">P</FONT><FONT COLOR="#00ffff">D</FONT><FONT COLOR="#00B4ff">X</FONT> !!!</blink></h1>';
