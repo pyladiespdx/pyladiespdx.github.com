@@ -15,6 +15,6 @@ body {
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus
- {
+{
   color: #fa023c;
 }
