@@ -49,7 +49,7 @@ function doit() {
         $('#potential-gerbil').replaceWith('<img src="/images/gerbil.gif">');
 
         // Add ability to remove wow -- why would anyone do this???? Georgia???
-        $('#less-wow').replaceWith('<a id="less-wow" href="#">Click here for less WOW</a>');
+        $('#less-wow').replaceWith('<h3><a id="less-wow" href="#">Click here for less WOW</a></h3>');
         $('#less-wow').click(function () { 
             removeCookie("pyladiespdx_wow"); 
         });
