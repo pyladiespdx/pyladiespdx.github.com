@@ -42,7 +42,7 @@ function doit() {
         $('#pyladies-title').replaceWith(title);
         $('#potential-hampsters').replaceWith('<img src="/images/hampster2.gif"><img src="/images/hampster1.gif"><img src="/images/hampster3.gif">');
         $('#potential-gerbil').replaceWith('<img src="/images/gerbil.gif">');
-        $('.pyladies-wide').replaceWith('<img class="pyladies-wide" src="../images/way_cool_collage.png" alt="pyladies of portland" />');
+        $('#main-img').replaceWith('<img id="main-img" class="img-responsive" src="/images/pyladies_pdx_wow.png" alt="pyladies pdx logo" />');
         $('#less-wow').replaceWith('<a id="less-wow" href="#">Click here for less WOW</a>');
         $('#less-wow').click(function () { 
             removeCookie("pyladiespdx_wow"); 
