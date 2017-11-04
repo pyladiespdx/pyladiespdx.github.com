@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: home
 
 ---
 <h1 id='pyladies-title'>Welcome to Pyladies PDX!</h1>
