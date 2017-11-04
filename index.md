@@ -10,6 +10,8 @@ layout: home
 
 **All events are organized through [meetup](http://www.meetup.com/PyLadies-PDX)**
 
+[Code of Conduct](https://www.meetup.com/PyLadies-PDX/pages/19130308/Code_of_Conduct/)
+
 <br/>
 <a href="http://www.oreilly.com/pub/cpc/9390"><img src="http://www.oreilly.com/partner_file/orm_partner_meerkats_125x125.png" /></a>
 <br>
