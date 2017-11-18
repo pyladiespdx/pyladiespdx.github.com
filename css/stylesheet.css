@@ -18,3 +18,11 @@ body {
 {
   color: #fa023c;
 }
+
+a:link {
+    color: #800000;
+}
+
+a:visited {
+    color: #000066;
+}
