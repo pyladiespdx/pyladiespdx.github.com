@@ -66,6 +66,9 @@ For people who like a structured learning environment, there are online classes 
 ## General Reference
 
 [Official Python website](http://www.python.org/)
+
 [Lotsa free online books](http://pythonbooks.revolunet.com/)
+
 [Python cookbook](http://chimera.labs.oreilly.com/books/1230000000393/index.html)
+
 [Pro Git](https://git-scm.com/book/en/v2)
