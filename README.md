@@ -42,15 +42,17 @@ Make sure this version is being sourced by running: ``` $ ruby --version ``` {{ 
 
 --running ``` $ gem --version ``` should now return 2.0.3
 
-* Create a project directory for the pyladies pdx site ``` $ mkdir pyladies_pdx ``` and then run ``` $ cd pyladies_pdx) ```, or cd into the one you've already created (if you already cloned the main repo)
+* Installer Bundler: `$ gem install bundler`
 
-* Install Jekyll by running ``` $ gem install jekyll ``` {{ takes a second to get going }}
+Get the site set up:
 
-* If you haven't already, form the pyladies pdx site repo by pushing "Fork" button, then clone your fork to your machine by running: ``` $ git clone https://github.com/your_github_ursername_here/pyladiespdx.github.com.git ```
+* Fork and clone this repo, then `cd` into the pyladies.github.io directory.
+
+* Install Jekyll using Bundler: `$ bundle install`
+
+* To run the site locally, run `bundle exec jekyll serve`
 
 ** See the TODOs for things that need to be done; develop locally **
-
-To build the site, run ``` $ jekyll --server ``` and visit http://localhost:8000
 
 When you're satisfied with the changes you've made, submit a pull request (by clicking "Pull Request" on your fork's page)!
 
