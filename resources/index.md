@@ -3,11 +3,11 @@ layout: page
 title: Self Paced Learning Material
 ---
 
-There is a lot of learning resources on the internet, it can be overwhelming to figure out will work best for you and where to start. The following are resources that Pyladies PDX members have found useful to them, depending on background.
+There are a lot of learning resources on the internet; it can be overwhelming to figure out will work best for you and where to start. The following are resources that Pyladies PDX members have found useful to them, depending on background.
 
 ## Tutorials for Beginners, new to programming
 
-If you're brand new, you'll first need to get your computer set up to start programming. We recommend the [Django Girls Installation Instructions](https://tutorial.djangogirls.org/en/installation/#installation). These instructions are great regardless of if you're interested in Django (a web framework). The first paragraph on this page says you can skip if reading from home... don't skip it, the whole point is to get your computer set up. Follow each section up until the "What is Django" chapter. These instructions cover Mac, Linux and Windows, and are frequently updated.
+If you're brand new, you'll first need to get your computer set up to start programming. We recommend the [Django Girls Installation Instructions](https://tutorial.djangogirls.org/en/installation/#installation). These instructions are great regardless of whether or not you're interested in Django (a web framework). The first paragraph on this page says you can skip if reading from home... don't skip it, the whole point is to get your computer set up. Follow each section up until the "What is Django" chapter. These instructions cover Mac, Linux and Windows, and are frequently updated.
 
 Once you've got everything installed, and know a little bit about the command line, you're ready to dive into Python. Depending on why you're interested in learning python, we recommend the following tutorials:
 
@@ -23,21 +23,21 @@ There are a lot of web frameworks in Python. If you don't already know which fra
 
 ### Generic Beginner Python
 
-[Think Python](http://greenteapress.com/wp/think-python/) TODO: description (Jules)
+[Think Python](http://greenteapress.com/wp/think-python/) Introduction to Python that also touches on general programming and computer science concepts as well.
 
 [Learn Python The Hard Way](https://learnpythonthehardway.org/) General Python intro with a focus on repetition to build a foundation of understanding.  This one costs money.
 
 ## Non-beginner resources
 
-For people familiar with Python, or seasoned programmers
+For people familiar with Python, or experienced programmers
 
 ### Web Development
 
 There are a lot of web frameworks in Python, some of the most popular:
-* Django: a fully-featured "Batteries Included" framework. It has a lot built-in, but is then more complex
-* Flask: a "microframework", it gives you just enough to get a website up, and the rest is up to you.
-* Tornado: an asynchronous web framework
-* Twisted: another asynchronous web framework
+* [Django](https://www.djangoproject.com): a fully-featured "Batteries Included" framework. It has a lot built-in, but is then more complex
+* [Flask](http://flask.pocoo.org): a "microframework", it gives you just enough to get a website up, and the rest is up to you.
+* [Tornado](http://www.tornadoweb.org): an asynchronous web framework
+* [Twisted](https://twistedmatrix.com): another asynchronous web framework
 
 [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) A good introduction to flask, by one of our favorite authors.
 
