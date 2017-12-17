@@ -27,6 +27,8 @@ There are a lot of web frameworks in Python. If you don't already know which fra
 
 [Learn Python The Hard Way](https://learnpythonthehardway.org/) General Python intro with a focus on repetition to build a foundation of understanding.  This one costs money.
 
+[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) Introduction to Python for non-programmers through manipulating text files and spreadsheets. Read online for free or buy in print and ebook form for money.
+
 ## Non-beginner resources
 
 For people familiar with Python, or experienced programmers
